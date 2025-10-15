@@ -1,0 +1,95 @@
+.quotation-page {
+  background: #fff;
+  min-height: 100vh;
+  padding: 30px 50px;
+  font-family: "Inter", serif;
+}
+
+.quotation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #f0f3f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+
+.save-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.save-btn:hover {
+  background: #0056b3;
+}
+
+.right-header {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+}
+
+.header-field label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.header-field input,
+.header-field select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  background: white;
+}
+
+.quotation-section details {
+  background: white;
+  margin-top: 12px;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  cursor: pointer;
+}
+
+.quotation-section summary {
+  display: block;          /* Make it take full width */
+  width: 100%;             /* Ensure it stretches fully */
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1594e3; /* Light box background */
+  padding: 12px 16px;       /* Add some space inside */
+  border-radius: 6px;       /* Rounded corners */
+  cursor: pointer;          /* Shows pointer on hover */
+  box-sizing: border-box;   /* Include padding in width */
+  margin-bottom: 10px;      /* Space below the box */
+}
+
+/* Optional: add hover effect */
+.quotation-section summary:hover {
+  background-color: #55a5db;
+}
+

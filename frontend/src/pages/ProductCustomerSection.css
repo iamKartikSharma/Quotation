@@ -1,0 +1,63 @@
+.kyc-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.product-details,
+.customer-details {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.product-details h4,
+.customer-details h4 {
+  background: #e6e9f2;
+  padding: 8px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  font-family: "Inter", serif;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 60px;
+  resize: none;
+}
+
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  color: #d2cccc;
+  font-weight: 300;
+}
